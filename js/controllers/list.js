@@ -6,4 +6,4 @@
     function ListController($scope) {
         $scope.dummyData = "hello world";
     }
-})
+})();
