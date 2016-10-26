@@ -5,6 +5,12 @@
     
     function ListController() {
         this.data = turtlesData
+        this.activeTurtle = {};
+        this.changeActiveTurtle = changeActiveTurtle;
+
+        function changeActiveTurtle(index) {
+            this.activeTurtle = index;
+        }
     }
 
     var turtlesData = [
