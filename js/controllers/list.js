@@ -3,7 +3,7 @@
         .module("turtleFacts")
         .controller("listCtrl", ListController);
     
-    function ListController($scope) {
-        $scope.dummyData = "hello world";
+    function ListController() {
+        this.dummyData = "hello world";
     }
 })();
