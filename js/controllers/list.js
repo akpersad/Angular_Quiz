@@ -1,8 +1,8 @@
-(function(){
+(function () {
     angular
         .module("turtleFacts")
         .controller("listCtrl", ListController);
-    
+
     function ListController() {
         this.data = turtlesData
         this.activeTurtle = {};
