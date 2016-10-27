@@ -4,9 +4,10 @@
         .controller("listCtrl", ListController);
 
     function ListController() {
-        this.data = turtlesData
+        this.data = turtlesData;
         this.activeTurtle = {};
         this.changeActiveTurtle = changeActiveTurtle;
+        this.search = "";
 
         function changeActiveTurtle(index) {
             this.activeTurtle = index;
