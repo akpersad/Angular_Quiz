@@ -4,13 +4,21 @@
         .controller("listCtrl", ListController);
 
     function ListController() {
+        var vm = this;
+
         this.data = turtlesData;
         this.activeTurtle = {};
-        this.changeActiveTurtle = changeActiveTurtle;
         this.search = "";
+        this.quizActive = false;
+        this.activateQuiz = activateQuiz;
+        this.changeActiveTurtle = changeActiveTurtle;
 
         function changeActiveTurtle(index) {
-            this.activeTurtle = index;
+            vm.activeTurtle = index;
+        }
+
+        function activateQuiz() {
+            vm.quizActive = true;
         }
     }
 
