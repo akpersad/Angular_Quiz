@@ -7,5 +7,6 @@
 
     function QuizController(quizMetrics, DataService) {
         this.quizMetrics = quizMetrics;
+        this.dataService = DataService;
     };
 })();
