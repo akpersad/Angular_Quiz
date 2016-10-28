@@ -15,16 +15,20 @@
 
         var numQuestionsAnswered = 0;
 
-        function setActiveQuestion() {
-            var breakOut = false;
-            var quizLengthAdjusted = DataService.quizQuestions.length - 1;
+        function setActiveQuestion(index) {
+            if (index === undefined){
+                var breakOut = false;
+                var quizLengthAdjusted = DataService.quizQuestions.length - 1;
 
-            while (!breakOut) {
-                this.activeQuestion = this.activeQuestion < quizLengthAdjusted ? ++this.activeQuestion : 0;
+                while (!breakOut) {
+                    this.activeQuestion = this.activeQuestion < quizLengthAdjusted ? ++this.activeQuestion : 0;
 
-                if (DataService.quizQuestions[this.activeQuestion].selected === null) {
-                    breakOut = true;
+                    if (DataService.quizQuestions[this.activeQuestion].selected === null) {
+                        breakOut = true;
+                    }
                 }
+            }else {
+                this.activeQuestion = index;
             }
         }
 

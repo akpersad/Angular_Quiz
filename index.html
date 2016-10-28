@@ -95,7 +95,7 @@
 				<h2>Progress:</h2>
 				<div class="btn-toolbar">
 					<button class="btn" ng-repeat="question in quiz.dataService.quizQuestions"
-							ng-class="{'btn-primary': question.selected !== null, 'btn-danger': question.selected === null}">
+							ng-class="{'btn-primary': question.selected !== null, 'btn-danger': question.selected === null}" ng-click="quiz.setActiveQuestion($index)">
 						<span class="glyphicon"
 							  ng-class="{'glyphicon-pencil': question !== null, 'glyphicon-question-sign': question.selected === null}"></span>
 					</button>

@@ -77,7 +77,7 @@
             text: "Which of these is the Green Turtle?",
             possibilities: [
                 {
-                    answer: "http://www.what-do-turtles-eat.com/wp-content/uploads/2014/10/Sea-Turtles-Habitat.jpg"
+                    answer: "https://ae01.alicdn.com/kf/HTB1JtaeNXXXXXaSXVXXq6xXFXXXY/-font-b-Sea-b-font-font-b-Turtle-b-font-Seabed-Looking-Marine-Animal-Poster.jpg"
                 },
                 {
                     answer: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kemp's_Ridley_sea_turtle_nesting.JPG"
