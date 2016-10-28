@@ -11,6 +11,7 @@
         this.activeQuestion = 0;
         this.questionAnswered = questionAnswered;
         this.setActiveQuestion = setActiveQuestion;
+        this.selectAnswer = selectAnswer;
 
         var numQuestionsAnswered = 0;
 
@@ -36,6 +37,10 @@
                 }
             }
             this.setActiveQuestion();
+        }
+
+        function selectAnswer(index) {
+            DataService.quizQuestions[this.activeQuestion].selected = index;
         }
     }
 })();
