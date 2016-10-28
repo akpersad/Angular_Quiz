@@ -4,8 +4,6 @@
         .controller("listCtrl", ListController);
 
     function ListController() {
-        var vm = this;
-
         this.data = turtlesData;
         this.activeTurtle = {};
         this.search = "";
@@ -14,11 +12,11 @@
         this.changeActiveTurtle = changeActiveTurtle;
 
         function changeActiveTurtle(index) {
-            vm.activeTurtle = index;
+            this.activeTurtle = index;
         }
 
         function activateQuiz() {
-            vm.quizActive = true;
+            this.quizActive = true;
         }
     }
 
