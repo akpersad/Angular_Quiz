@@ -4,7 +4,7 @@
 }
 
 .top-buffer{
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .answer{
@@ -14,7 +14,7 @@
 }
 
 .answer:hover{
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .image-answer{
@@ -29,4 +29,8 @@
 .image-answer img{
     width: 100%;
     height: auto;
+}
+
+.image-selected{
+    border: 3px solid #56afdc;
 }
