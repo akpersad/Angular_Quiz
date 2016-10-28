@@ -3,11 +3,13 @@
         .module("turtleFacts")
         .controller("listCtrl", ListController);
 
-    function ListController() {
+    ListController.$inject = ['quizMetrics'];
+
+    function ListController(quizMetrics) {
+        this.quizMetrics = quizMetrics;
         this.data = turtlesData;
         this.activeTurtle = {};
         this.search = "";
-        this.quizActive = false;
         this.activateQuiz = activateQuiz;
         this.changeActiveTurtle = changeActiveTurtle;
 
@@ -16,7 +18,7 @@
         }
 
         function activateQuiz() {
-            this.quizActive = true;
+            quizMetrics.changeState(true);
         }
     }
 
