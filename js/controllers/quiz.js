@@ -4,6 +4,6 @@
         .controller("quizCtrl", QuizController);
     
         function QuizController() {
-            
-        }
+
+        };
 })();
