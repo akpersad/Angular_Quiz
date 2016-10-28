@@ -3,14 +3,22 @@
         .module("turtleFacts")
         .controller("listCtrl", ListController);
 
-    function ListController() {
+    ListController.$inject = ['quizMetrics'];
+
+    function ListController(quizMetrics) {
+        this.quizMetrics = quizMetrics;
         this.data = turtlesData;
         this.activeTurtle = {};
-        this.changeActiveTurtle = changeActiveTurtle;
         this.search = "";
+        this.activateQuiz = activateQuiz;
+        this.changeActiveTurtle = changeActiveTurtle;
 
         function changeActiveTurtle(index) {
             this.activeTurtle = index;
+        }
+
+        function activateQuiz() {
+            quizMetrics.changeState(true);
         }
     }
 
