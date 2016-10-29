@@ -14,6 +14,7 @@
         this.selectAnswer = selectAnswer;
         this.error = false;
         this.finalize = false;
+        this.finalizeAnswers = finalizeAnswers;
 
         var numQuestionsAnswered = 0;
 
@@ -59,6 +60,15 @@
 
         function selectAnswer(index) {
             DataService.quizQuestions[this.activeQuestion].selected = index;
+        }
+
+        function finalizeAnswers() {
+            this.finalize = false;
+            numQuestionsAnswered = 0;
+            this.activeQuestion = 0;
+            quizMetrics.markQuiz();
+            quizMetrics.changeState("quiz", false);
+            quizMetrics.changeState("results", true);
         }
     }
 })();
