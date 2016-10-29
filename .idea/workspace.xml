@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="017c3744-8469-4dfb-8bd0-738c1cd9d112" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/factories/dataservice.js" afterPath="$PROJECT_DIR$/js/factories/dataservice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/factories/quizMetrics.js" afterPath="$PROJECT_DIR$/js/factories/quizMetrics.js" />
-    </list>
+    <list default="true" id="017c3744-8469-4dfb-8bd0-738c1cd9d112" name="Default" comment="" />
     <ignored path="Angular_Quiz.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,8 +56,8 @@
       <file leaf-file-name="dataservice.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/factories/dataservice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#404#6957#0" expanded="false" />
                 <element signature="e#6982#15233#0" expanded="false" />
@@ -355,12 +352,12 @@
       <updated>1477430012149</updated>
       <workItem from="1477430014299" duration="6489000" />
       <workItem from="1477454995826" duration="5583000" />
-      <workItem from="1477591842729" duration="13523000" />
+      <workItem from="1477591842729" duration="13593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25595000" />
+    <option name="totallyTimeSpent" value="25665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="722" y="0" width="718" height="900" extended-state="0" />
@@ -484,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/factories/dataservice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="e#404#6957#0" expanded="false" />
             <element signature="e#6982#15233#0" expanded="false" />
