@@ -95,7 +95,8 @@
 				<h2>Progress:</h2>
 				<div class="btn-toolbar">
 					<button class="btn" ng-repeat="question in quiz.dataService.quizQuestions"
-							ng-class="{'btn-primary': question.selected !== null, 'btn-danger': question.selected === null}" ng-click="quiz.setActiveQuestion($index)">
+							ng-class="{'btn-primary': question.selected !== null, 'btn-danger': question.selected === null}"
+							ng-click="quiz.setActiveQuestion($index)">
 						<span class="glyphicon"
 							  ng-class="{'glyphicon-pencil': question !== null, 'glyphicon-question-sign': question.selected === null}"></span>
 					</button>
@@ -120,6 +121,10 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="alert alert-danger" ng-show="quiz.error">
+				Error! You have not answered all of the questions!
+				<button class="close" ng-click="quiz.error = false">&times</button>
+			</div>
 			<h3>Question:</h3>
 			<div class="well well-sm">
 				<div class="row">

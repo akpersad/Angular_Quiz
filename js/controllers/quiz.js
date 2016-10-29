@@ -1,4 +1,4 @@
-(function () {
+(function() {
     angular
         .module("turtleFacts")
         .controller("quizCtrl", QuizController);
@@ -12,32 +12,46 @@
         this.questionAnswered = questionAnswered;
         this.setActiveQuestion = setActiveQuestion;
         this.selectAnswer = selectAnswer;
+        this.error = false;
+        this.finalize = false;
 
         var numQuestionsAnswered = 0;
 
         function setActiveQuestion(index) {
-            if (index === undefined){
+            if(index === undefined) {
                 var breakOut = false;
                 var quizLengthAdjusted = DataService.quizQuestions.length - 1;
 
-                while (!breakOut) {
+                while(!breakOut) {
                     this.activeQuestion = this.activeQuestion < quizLengthAdjusted ? ++this.activeQuestion : 0;
 
-                    if (DataService.quizQuestions[this.activeQuestion].selected === null) {
+                    if(this.activeQuestion === 0) {
+                        this.error = true;
+                    }
+
+                    if(DataService.quizQuestions[this.activeQuestion].selected === null) {
                         breakOut = true;
                     }
                 }
-            }else {
+            } else {
                 this.activeQuestion = index;
             }
         }
 
         function questionAnswered() {
             var quizLength = DataService.quizQuestions.length;
-            if (DataService.quizQuestions[this.activeQuestion].selected !== null) {
+            if(DataService.quizQuestions[this.activeQuestion].selected !== null) {
                 numQuestionsAnswered++;
-                if (numQuestionsAnswered >= quizLength) {
-                    //Placeholder
+                if(numQuestionsAnswered >= quizLength) {
+                    for(var i = 0; i < quizLength; i++) {
+                        if(DataService.quizQuestions[i].selected === null) {
+                            setActiveQuestion(i);
+                            return;
+                        }
+                    }
+                    this.error = false;
+                    this.finalize = true;
+                    return;
                 }
             }
             this.setActiveQuestion();
