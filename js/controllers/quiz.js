@@ -14,6 +14,7 @@
         this.selectAnswer = selectAnswer;
         this.error = false;
         this.finalize = false;
+        this.reset = reset;
         this.finalizeAnswers = finalizeAnswers;
 
         var numQuestionsAnswered = 0;
@@ -69,6 +70,18 @@
             quizMetrics.markQuiz();
             quizMetrics.changeState("quiz", false);
             quizMetrics.changeState("results", true);
+        }
+
+        function reset() {
+            quizMetrics.quizRestart = true;
+            quizMetrics.changeState("quiz", false);
+
+            for(var i = 0; i < DataService.quizQuestions.length; i++){
+                var data = DataService.quizQuestions[i];
+
+                data.selected = null;
+                data.correct = null;
+            }
         }
     }
 })();

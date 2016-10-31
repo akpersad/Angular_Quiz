@@ -10,7 +10,6 @@
         this.data = DataService.turtlesData;
         this.activeTurtle = {};
         this.search = "";
-        this.quizStarted = false;
         this.activateQuiz = activateQuiz;
         this.changeActiveTurtle = changeActiveTurtle;
 
@@ -20,7 +19,6 @@
 
         function activateQuiz() {
             quizMetrics.changeState("quiz", true);
-            quizStarted = true;
         }
     }
 

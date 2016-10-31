@@ -12,7 +12,8 @@
             changeState: changeState,
             correctAnswers: [],
             markQuiz: markQuiz,
-            numCorrect: 0
+            numCorrect: 0,
+            quizRestart: false
         };
         return quizObj;
 
