@@ -1,6 +1,6 @@
 (function () {
     angular
-        .module("turtleFacts")
+        .module("doctorFacts")
         .controller("listCtrl", ListController);
 
     ListController.$inject = ['quizMetrics', "DataService"];
