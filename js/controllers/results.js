@@ -34,6 +34,7 @@
         function reset() {
             quizMetrics.changeState("results", false);
             quizMetrics.numCorrect = 0;
+            quizMetrics.quizRestart = false;
 
             for(var i = 0; i < DataService.quizQuestions.length; i++){
                 var data = DataService.quizQuestions[i];
