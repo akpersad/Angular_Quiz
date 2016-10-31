@@ -1,5 +1,5 @@
 {
-  "name": "Quiz",
+  "name": "quiz",
   "version": "1.0.0",
   "private": false,
   "author": "akpersad",
@@ -13,6 +13,7 @@
     "postinstall": "bower install"
   },
   "dependencies": {
+    "bower": "1.7.9",
     "express": "4.14.0"
   },
   "cacheDirectories": [

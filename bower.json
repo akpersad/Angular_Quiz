@@ -1,0 +1,17 @@
+{
+  "name": "quiz",
+  "description": "Quiz App",
+  "main": "index.html",
+  "authors": [
+    "akpersad"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/akpersad/Angular_Quiz",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
