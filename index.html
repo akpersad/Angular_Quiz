@@ -171,8 +171,7 @@
 			<div class="col-xs-8">
 				<h2>Results:</h2>
 				<div class="btn-toolbar">
-					<button class="btn"
-							ng-repeat="question in results.dataService.quizQuestions"
+					<button class="btn" ng-repeat="question in results.dataService.quizQuestions"
 							ng-class="{'btn-success': question.correct, 'btn-danger': !question.correct}"
 							ng-click="results.setActiveQuestion($index)">
 						<span class="glyphicon"
