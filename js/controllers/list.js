@@ -1,20 +1,20 @@
 (function () {
     angular
-        .module("turtleFacts")
+        .module("doctorFacts")
         .controller("listCtrl", ListController);
 
     ListController.$inject = ['quizMetrics', "DataService"];
 
     function ListController(quizMetrics, DataService) {
         this.quizMetrics = quizMetrics;
-        this.data = DataService.turtlesData;
-        this.activeTurtle = {};
+        this.data = DataService.doctorWhoData;
+        this.activeDoctor = {};
         this.search = "";
         this.activateQuiz = activateQuiz;
-        this.changeActiveTurtle = changeActiveTurtle;
+        this.changeActiveDoctor = changeActiveDoctor;
 
-        function changeActiveTurtle(index) {
-            this.activeTurtle = index;
+        function changeActiveDoctor(index) {
+            this.activeDoctor = index;
         }
 
         function activateQuiz() {
