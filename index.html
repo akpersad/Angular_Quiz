@@ -33,7 +33,12 @@
 			<span class="glyphicon glyphicon-search"></span>
 			<input type="text" placeholder="Search..." class="form-control" ng-model="list.search">
 			<button class="btn-warning pull-right" ng-click="list.activateQuiz()">
-				<strong>Start Quiz</strong>
+				<div ng-show="!list.quizRestart">
+					<strong>Start Quiz</strong>
+				</div>
+				<div ng-show="list.quizRestart">
+					<strong>Restart Quiz</strong>
+				</div>
 			</button>
 		</form>
 		<div class="row">
@@ -235,6 +240,9 @@
 					</div>
 				</div>
 			</div>
+			<button class="btn btn-primary btn-lg" ng-click="results.reset()">
+				Go Back To Facts
+			</button>
 		</div>
 	</div>
 
