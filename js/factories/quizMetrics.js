@@ -28,7 +28,7 @@
 
         function markQuiz() {
             quizObj.correctAnswers = DataService.correctAnswers;
-            for(var i = 0; i > DataService.quizQuestions.length; i++) {
+            for(var i = 0; i < DataService.quizQuestions.length; i++) {
                 if(DataService.quizQuestions[i].selected === DataService.correctAnswers[i]) {
                     DataService.quizQuestions[i].correct = true;
                     quizObj.numCorrect++;
