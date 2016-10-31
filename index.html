@@ -19,6 +19,13 @@
 </head>
 <body>
 <div class="container">
+	<div ng-controller="quizCtrl as quiz" ng-show="quiz.quizMetrics.quizActive">
+		<div id="flash">
+			<span style="position: absolute;top: 50%;left: 25%;">
+				Do not refresh page or you will lose all progress!
+			</span>
+		</div>
+	</div>
 	<div class="page-header">
 		<h1>Doctor Who Quiz</h1>
 		<h3>
@@ -169,7 +176,7 @@
 				</div>
 			</div>
 		</div>
-		<button class="btn btn-primary btn-lg" ng-click="quiz.reset()">
+		<button class="btn btn-danger btn-lg" ng-click="quiz.reset()">
 			Go Back To Facts
 		</button>
 	</div>
@@ -258,6 +265,14 @@
 <script src="js/controllers/results.js"></script>
 <script src="js/factories/quizMetrics.js"></script>
 <script src="js/factories/dataservice.js"></script>
+
+<script type="text/javascript">
+	$(function() {
+		$('#flash').delay(500).fadeIn('normal', function() {
+			$(this).delay(5000).fadeOut();
+		});
+	});
+</script>
 
 </body>
 </html>
