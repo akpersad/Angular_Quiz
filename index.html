@@ -9,7 +9,7 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Turtle Facts and Quiz</title>
+	<title>Doctor Who Quiz</title>
 
 	<!-- Bootstrap css and my own css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -20,10 +20,10 @@
 <body>
 <div class="container">
 	<div class="page-header">
-		<h1>Turtle Facts Quiz</h1>
+		<h1>Doctor Who Quiz</h1>
 		<h3>
-			Learn about all the turtles below before you decide to take on the
-			<strong>TURTLE QUIZ</strong>
+			Learn about all the Doctor below before you decide to take on the
+			<strong>Doctor Who Quiz</strong>
 		</h3>
 	</div>
 
@@ -42,20 +42,20 @@
 			</button>
 		</form>
 		<div class="row">
-			<div class="col-sm-6" ng-repeat="turtle in list.data | filter:list.search">
+			<div class="col-sm-6" ng-repeat="doctor in list.data | filter:list.search">
 				<div class="well well-sm">
 					<div class="row">
 						<div class="col-md-6">
-							<img ng-src="{{turtle.image_url1}}" class="img-rounded img-responsive well-image">
+							<img ng-src="{{doctor.image_url1}}" class="img-rounded img-responsive well-image">
 						</div>
 						<div class="col-md-6">
-							<h4>{{turtle.type}}</h4>
-							<p><strong>Locations:</strong> {{turtle.locations}}</p>
-							<p><strong>Size:</strong> {{turtle.size}}</p>
-							<p><strong>Average Lifespan:</strong> {{turtle.lifespan}}</p>
-							<p><strong>Diet:</strong> {{turtle.diet}}</p>
-							<button class="btn btn-primary pull-right" data-toggle="modal" data-target="#turtle-info"
-									ng-click="list.changeActiveTurtle(turtle)">Learn More
+							<h4>{{doctor.type}}</h4>
+							<p><strong>Locations:</strong> {{doctor.locations}}</p>
+							<p><strong>Size:</strong> {{doctor.size}}</p>
+							<p><strong>Average Lifespan:</strong> {{doctor.lifespan}}</p>
+							<p><strong>Diet:</strong> {{doctor.diet}}</p>
+							<button class="btn btn-primary pull-right" data-toggle="modal" data-target="#doctor-info"
+									ng-click="list.changeActiveDoctor(doctor)">Learn More
 							</button>
 						</div>
 					</div>
@@ -63,27 +63,27 @@
 			</div>
 		</div>
 
-		<div class="modal" id="turtle-info">
+		<div class="modal" id="doctor-info">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h2>{{list.activeTurtle.type}}</h2>
+						<h2>{{list.activeDoctor.type}}</h2>
 					</div>
 					<div class="modal-body">
 						<div class="row">
 							<div class="col-xs-8 col-xs-offset-2">
-								<img ng-src="{{list.activeTurtle.image_url2}}" class="img-rounded img-responsive">
+								<img ng-src="{{list.activeDoctor.image_url2}}" class="img-rounded img-responsive">
 							</div>
 						</div>
 						<div class="row top-buffer">
 							<div class="col-md-6">
-								<p><strong>Locations:</strong> {{list.activeTurtle.locations}}</p>
-								<p><strong>Size:</strong> {{list.activeTurtle.size}}</p>
-								<p><strong>Average Lifespan:</strong> {{list.activeTurtle.lifespan}}</p>
-								<p><strong>Diet:</strong> {{list.activeTurtle.diet}}</p>
+								<p><strong>Locations:</strong> {{list.activeDoctor.locations}}</p>
+								<p><strong>Size:</strong> {{list.activeDoctor.size}}</p>
+								<p><strong>Average Lifespan:</strong> {{list.activeDoctor.lifespan}}</p>
+								<p><strong>Diet:</strong> {{list.activeDoctor.diet}}</p>
 							</div>
 							<div class="col-xs-12 top-buffer">
-								<p>{{list.activeTurtle.description}}</p>
+								<p>{{list.activeDoctor.description}}</p>
 								<button class="btn btn-danger pull-right" data-dismiss="modal">Close</button>
 							</div>
 						</div>

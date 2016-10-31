@@ -5,14 +5,14 @@
 
     function DataService() {
         var dataObj = {
-            turtlesData: turtlesData,
+            doctorWhoData: doctorWhoData,
             quizQuestions: quizQuestions,
             correctAnswers: correctAnswers
         };
         return dataObj;
     }
 
-    var turtlesData = [
+    var doctorWhoData = [
         {
             type: "First Doctor",
             image_url1: "http://i.imgur.com/UjDBb1p.jpg",
