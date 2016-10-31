@@ -85,7 +85,7 @@
         },
         {
             type: "Eight Doctor",
-            image_url1: "http://i.imgur.com/RrSjR08.jpg",
+            image_url1: "http://i.imgur.com/Ne6xA9Z.jpg",
             image_url2: "http://i.imgur.com/ODNxQCT.gif",
             locations: "Tropical and subtropical oceans worldwide",
             size: "Up to 30cm",
@@ -115,7 +115,7 @@
         },
         {
             type: "Tenth Doctor",
-            image_url1: "http://i.imgur.com/V9CYOVR.jpg",
+            image_url1: "http://i.imgur.com/b56LdRB.jpg",
             image_url2: "http://i.imgur.com/5s79tf5.gif",
             locations: "Tropical and subtropical oceans worldwide",
             size: "Up to 30cm",
