@@ -174,8 +174,8 @@
 					<button class="btn" ng-repeat="question in results.dataService.quizQuestions"
 							ng-class="{'btn-success': question.correct, 'btn-danger': !question.correct}"
 							ng-click="results.setActiveQuestion($index)">
-						<span class="glyphicon"
-							  ng-class="{'glyphicon-ok': question.correct, 'glyphicon-remove': !question.correct}"></span>
+                            <span class="glyphicon"
+								  ng-class="{'glyphicon-ok': question.correct, 'glyphicon-remove': !question.correct}"></span>
 					</button>
 				</div>
 			</div>
@@ -193,6 +193,45 @@
 							<span class="glyphicon glyphicon-remove"></span>
 						</button>
 						<p>Incorrect</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 top-buffer">
+				<h2>You Scored: <strong>{{results.calculateScore() | number:2}}%</strong></h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="well well-sm">
+				<div class="row">
+					<div class="col-xs-12">
+						<h4>{{results.activeQuestion+1 +".
+							"+results.dataService.quizQuestions[results.activeQuestion].text}}</h4>
+						<div class="row"
+							 ng-if="results.dataService.quizQuestions[results.activeQuestion].type === 'text'">
+							<div class="col-sm-6"
+								 ng-repeat="answer in results.dataService.quizQuestions[results.activeQuestion].possibilities">
+								<h4 class="answer" ng-class="results.getAnswerClass($index)">
+									{{answer.answer}}
+									<p class="pull-right"
+									   ng-show="$index !== results.quizMetrics.correctAnswers[results.activeQuestion] && $index === results.dataService.quizQuestions[results.activeQuestion].selected">
+										Your Answer</p>
+									<p class="pull-right"
+									   ng-show="$index === results.quizMetrics.correctAnswers[results.activeQuestion]">
+										Correct Answer</p>
+								</h4>
+							</div>
+						</div>
+						<div class="row"
+							 ng-if="results.dataService.quizQuestions[results.activeQuestion].type === 'image'">
+							<div class="col-sm-6"
+								 ng-repeat="answer in results.dataService.quizQuestions[results.activeQuestion].possibilities">
+								<div class="image-answer" ng-class="results.getAnswerClass($index)">
+									<img ng-src="{{answer.answer}}">
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
