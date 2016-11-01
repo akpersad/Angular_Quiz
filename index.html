@@ -57,10 +57,10 @@
 						</div>
 						<div class="col-md-6">
 							<h4>{{doctor.type}}</h4>
-							<p><strong>Locations:</strong> {{doctor.locations}}</p>
-							<p><strong>Size:</strong> {{doctor.size}}</p>
-							<p><strong>Average Lifespan:</strong> {{doctor.lifespan}}</p>
-							<p><strong>Diet:</strong> {{doctor.diet}}</p>
+							<p><strong>Portrayed By:</strong> {{doctor.actor}}</p>
+							<p><strong>Year of First Appearance:</strong> {{doctor.from}}</p>
+							<p><strong># of Appearances:</strong> {{doctor.appearances}}</p>
+							<p><strong>First Episode:</strong> {{doctor.first_serial}}</p>
 							<button class="btn btn-primary pull-right" data-toggle="modal" data-target="#doctor-info"
 									ng-click="list.changeActiveDoctor(doctor)">Learn More
 							</button>
@@ -83,14 +83,16 @@
 							</div>
 						</div>
 						<div class="row top-buffer">
-							<div class="col-md-6">
-								<p><strong>Locations:</strong> {{list.activeDoctor.locations}}</p>
-								<p><strong>Size:</strong> {{list.activeDoctor.size}}</p>
-								<p><strong>Average Lifespan:</strong> {{list.activeDoctor.lifespan}}</p>
-								<p><strong>Diet:</strong> {{list.activeDoctor.diet}}</p>
+							<div class="col-xs-12">
+								<p><strong>Portrayed By:</strong> {{list.activeDoctor.actor}}</p>
+								<p><strong>Year of First Appearance:</strong> {{list.activeDoctor.from}}</p>
+								<p><strong># of Appearances:</strong> {{list.activeDoctor.appearances}}</p>
+								<p><strong>First Episode:</strong> {{list.activeDoctor.first_serial}}</p>
+								<p><strong>First Words:</strong> {{list.activeDoctor.first_words}}</p>
+								<p><strong>Last Words:</strong> {{list.activeDoctor.last_words}}</p>
 							</div>
 							<div class="col-xs-12 top-buffer">
-								<p>{{list.activeDoctor.description}}</p>
+								<p><strong>Description:</strong> {{list.activeDoctor.description}}</p>
 								<button class="btn btn-danger pull-right" data-dismiss="modal">Close</button>
 							</div>
 						</div>

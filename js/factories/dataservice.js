@@ -14,7 +14,9 @@
 
     var doctorWhoData = [
         {
-            doctor: 'first',
+            type: "First Doctor",
+            image_url1: "http://i.imgur.com/UjDBb1p.jpg",
+            image_url2: "http://i.imgur.com/P4RV2N8.gif",
             from: "1963",
             to: "2013",
             first_serial: "An Unearthly Child",
@@ -30,7 +32,9 @@
             last_words: "Ah yes, thank you. Keep warm."
         },
         {
-            doctor: "second",
+            type: "Second Doctor",
+            image_url1: "http://i.imgur.com/vtPq9e3.jpg",
+            image_url2: "http://i.imgur.com/zhvIvMe.gif",
             from: "1966",
             to: "2013",
             first_serial: "The Tenth Planet",
@@ -46,7 +50,9 @@
             last_words: "No! Stop, you're making me giddy! No, you can't do this to me! No, no, no, no, no, no, no, no, no, no, no, no, no!"
         },
         {
-            doctor: "third",
+            type: "Third Doctor",
+            image_url1: "http://i.imgur.com/Xcl64bW.jpg",
+            image_url2: "http://i.imgur.com/L6gWZBN.gif",
             from: "1966",
             to: "2013",
             first_serial: "Spearhead from Space",
@@ -62,7 +68,9 @@
             last_words: "A tear, Sarah Jane?.. No, don't cry... While there's life, there's..."
         },
         {
-            doctor: "fourth",
+            type: "Fourth Doctor",
+            image_url1: "http://i.imgur.com/mIVpQji.jpg",
+            image_url2: "http://i.imgur.com/9NxGtzm.gif",
             from: "1974",
             to: "2013",
             first_serial: "Planet of the Spiders",
@@ -78,7 +86,9 @@
             last_words: "It's the end, but the moment has been prepared for..."
         },
         {
-            doctor: "fifth",
+            type: "Fifth Doctor",
+            image_url1: "http://i.imgur.com/CADo6kq.jpg",
+            image_url2: "http://i.imgur.com/fxWbcTe.gif",
             from: "1981",
             to: "2013",
             first_serial: "Logopolis",
@@ -94,7 +104,9 @@
             last_words: "Adric?"
         },
         {
-            doctor: "sixth",
+            type: "Sixth Doctor",
+            image_url1: "http://i.imgur.com/fzO6wLv.jpg",
+            image_url2: "http://i.imgur.com/zboUWX3.gif",
             from: "1984",
             to: "2013",
             first_serial: "The Caves of Androzani",
@@ -110,7 +122,9 @@
             last_words: "Carrot juice, carrot juice, carrot juice!"
         },
         {
-            doctor: "seventh",
+            type: "Seventh Doctor",
+            image_url1: "http://i.imgur.com/zBG6gPy.jpg",
+            image_url2: "http://i.imgur.com/VW8d10j.gif",
             from: "1984",
             to: "2013",
             first_serial: "Time and the Rani",
@@ -126,7 +140,9 @@
             last_words: "Timing malfunction! The Master, he's out there! He's out there... I've got to stop... him..."
         },
         {
-            doctor: "eigth",
+            type: "Eight Doctor",
+            image_url1: "http://i.imgur.com/Ne6xA9Z.jpg",
+            image_url2: "http://i.imgur.com/ODNxQCT.gif",
             from: "1996",
             to: "2013",
             first_serial: "Doctor Who (film)",
@@ -142,7 +158,9 @@
             last_words: "Good. Charley, C'rizz, Lucie, Tamsin, Molly, friends, companions I've known, I salute you. And Cass, I apologise.  Physician, heal thyself."
         },
         {
-            doctor: "war",
+            type: "War Doctor",
+            image_url1: "http://i.imgur.com/qgpC5Ib.jpg",
+            image_url2: "http://i.imgur.com/cOEODS6.gif",
             from: "2013",
             to: "2013",
             first_serial: "The Name of the Doctor",
@@ -158,7 +176,9 @@
             last_words: "Oh yes. Of course. Suppose it makes sense. Wearing a bit thin. I hope the ears are a bit less conspicuous this time."
         },
         {
-            doctor: "ninth",
+            type: "Ninth Doctor",
+            image_url1: "http://i.imgur.com/4qP8qhL.jpg",
+            image_url2: "http://i.imgur.com/dNUxKxf.gif",
             from: "2005",
             to: "2005",
             first_serial: "Rose",
@@ -174,7 +194,9 @@
             last_words: "Rose, before I go, I just want to tell you, you were fantastic.  Absolutely fantastic. And do you know what? So was I."
         },
         {
-            doctor: "tenth",
+            type: "Tenth Doctor",
+            image_url1: "http://i.imgur.com/b56LdRB.jpg",
+            image_url2: "http://i.imgur.com/5s79tf5.gif",
             from: "2005",
             to: "2010",
             first_serial: "The Parting of the Ways",
@@ -190,9 +212,9 @@
             last_words: "I don't want to go."
         },
         {
-            doctor: "eleventh",
-            from: "2010",
-            to: "2013",
+            type: "Eleventh Doctor",
+            image_url1: "http://i.imgur.com/yCfF1h1.jpg",
+            image_url2: "http://i.imgur.com/tE1MoYh.gif",
             first_serial: "The End of Time",
             last_serial: "The Day of The Doctor",
             actor: "Matt Smith",
@@ -206,7 +228,9 @@
             last_words: "I will not forget one line of this. Not one day. I swear. I will always remember when the Doctor was me."
         },
         {
-            doctor: "twelfth",
+            type: "Twelfth Doctor",
+            image_url1: "http://i.imgur.com/qDg1dGs.jpg",
+            image_url2: "http://i.imgur.com/GbU4pT6.gif",
             from: "2013",
             to: "",
             first_serial: "The Day of the Doctor",
@@ -217,9 +241,9 @@
             tardis_interior: "http://www.thedoctorwhosite.co.uk/tardis/interior/",
             tardis_exterior: "http://www.thedoctorwhosite.co.uk/tardis/exterior/2010-tardis/",
             costume: "",
-            description: "",
+            description: "A cynical man armed with a dry, acerbic wit, a brutal honesty and enough internalised anger to overpower Empath, the Twelfth Doctor The Twelfth Doctor is, according to Capaldi, more alien than he's been in a while. Whilst still defining himself as someone who saves people the Twelfth Doctor cares little about being seen as a hero or even being liked by the people who he is trying to save.[37] Unlike his previous two incarnations who cared about humans and tried to understand them, Capaldi has confirmed that, this incarnation doesn't quite understand human beings or really care very much about their approval.",
             first_words: "Kidneys! I've got new kidneys!",
-            last_words: ""
+            last_words: "N/A"
         }
     ];
 

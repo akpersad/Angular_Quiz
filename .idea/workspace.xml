@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f99bd22-6e84-406b-84a2-bc80ea9ce995" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/factories/dataservice.js" afterPath="$PROJECT_DIR$/js/factories/dataservice.js" />
     </list>
     <ignored path="Angular_Quiz.iws" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="617">
+              <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -50,13 +50,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataservice.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dataservice.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/factories/dataservice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3180">
-              <caret line="212" column="24" selection-start-line="212" selection-start-column="24" selection-end-line="212" selection-end-column="24" />
+            <state relative-caret-position="592">
+              <caret line="243" column="641" selection-start-line="243" selection-start-column="641" selection-end-line="243" selection-end-column="641" />
               <folding>
-                <element signature="e#12366#18919#0" expanded="false" />
+                <element signature="e#14507#21060#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -100,6 +100,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/factories/dataservice.js" />
       </list>
     </option>
@@ -230,6 +231,7 @@
   <component name="PropertiesComponent">
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Code/DWJson.rb" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -297,12 +299,12 @@
       <option name="presentableId" value="Default" />
       <updated>1477890058674</updated>
       <workItem from="1477890061661" duration="722000" />
-      <workItem from="1477946312175" duration="7486000" />
+      <workItem from="1477946312175" duration="9156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8208000" />
+    <option name="totallyTimeSpent" value="9878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -415,24 +417,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/factories/dataservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3180">
-          <caret line="212" column="24" selection-start-line="212" selection-start-column="24" selection-end-line="212" selection-end-column="24" />
-          <folding>
-            <element signature="e#12366#18919#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="617">
+          <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/factories/dataservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="243" column="641" selection-start-line="243" selection-start-column="641" selection-end-line="243" selection-end-column="641" />
+          <folding>
+            <element signature="e#14507#21060#0" expanded="false" />
           </folding>
         </state>
       </provider>
