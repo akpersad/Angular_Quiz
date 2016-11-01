@@ -29,7 +29,8 @@
             costume: "Edwardian grandfather",
             description: "Originally a very difficult and curmudgeonly person, the First Doctor matured from an apparent selfishness and became more inviting. His happier, kinder characteristics fostered when he began to acquire an entourage of companions to accompany him throughout the wonders of the fourth dimension and learned to be a caregiver with a sense of justice in a universe afflicted by evils.",
             first_words: "What are you doing here?",
-            last_words: "Ah yes, thank you. Keep warm."
+            last_words: "Ah yes, thank you. Keep warm.",
+            wiki_link: "http://tardis.wikia.com/wiki/First_Doctor"
         },
         {
             type: "Second Doctor",
@@ -47,7 +48,8 @@
             costume: "Cosmic Hobo",
             description: "Though outwardly warm, bumbling, and somewhat clownish, the Second Doctor had a darker, more cunning aspect to his personality — one which he usually kept hidden in order to carry out his plans.",
             first_words: "Slower... SLOWER!!! Concentrate on one thing... ONE THING!!!...",
-            last_words: "No! Stop, you're making me giddy! No, you can't do this to me! No, no, no, no, no, no, no, no, no, no, no, no, no!"
+            last_words: "No! Stop, you're making me giddy! No, you can't do this to me! No, no, no, no, no, no, no, no, no, no, no, no, no!",
+            wiki_link: "http://tardis.wikia.com/wiki/Second_Doctor"
         },
         {
             type: "Third Doctor",
@@ -65,7 +67,8 @@
             costume: "Dandy James Bond",
             description: "Authoritative and rebellious at the same time, he was quick to demand action just as much as he felt compelled to take action himself. At times, he could become argumentative and needed to be defused in order to establish fluid communication with his associates, but when cheerful, could be quite humble and sociable, with a few humorous anecdotes thrown in for good measure.",
             first_words: "Shoes... I must find my shoes...",
-            last_words: "A tear, Sarah Jane?.. No, don't cry... While there's life, there's..."
+            last_words: "A tear, Sarah Jane?.. No, don't cry... While there's life, there's...",
+            wiki_link: "http://tardis.wikia.com/wiki/Third_Doctor"
         },
         {
             type: "Fourth Doctor",
@@ -83,7 +86,8 @@
             costume: "Bohemian vagabond",
             description: "Long scarf, floppy hat, jelly babies, excitable.",
             first_words: "Human history.",
-            last_words: "It's the end, but the moment has been prepared for..."
+            last_words: "It's the end, but the moment has been prepared for...",
+            wiki_link: "http://tardis.wikia.com/wiki/Fourth_Doctor"
         },
         {
             type: "Fifth Doctor",
@@ -101,7 +105,8 @@
             costume: "Cricket whites and celery.",
             description: "An interest in things associated with Victorian and Edwardian England: cricket, tea, fair play, good manners, and a keen interest in science and exploration.",
             first_words: "Ah. You've come to help me find the Zero Room. Welcome aboard.  I'm the Doctor. Or will be if this regeneration works out.",
-            last_words: "Adric?"
+            last_words: "Adric?",
+            wiki_link: "http://tardis.wikia.com/wiki/Fifth_Doctor"
         },
         {
             type: "Sixth Doctor",
@@ -119,7 +124,8 @@
             costume: "Multi coloured costume. Cat pin.",
             description: "Arrogant, careless, dramatic, self-absorbed, driven and stubborn. Loud clothes.",
             first_words: "You were expecting someone else?",
-            last_words: "Carrot juice, carrot juice, carrot juice!"
+            last_words: "Carrot juice, carrot juice, carrot juice!",
+            wiki_link: "http://tardis.wikia.com/wiki/Sixth_Doctor"
         },
         {
             type: "Seventh Doctor",
@@ -137,7 +143,8 @@
             costume: "Multi coloured costume. Cat pin.",
             description: "Arrogant, careless, dramatic, self-absorbed, driven and stubborn. Loud clothes.",
             first_words: "Oh no. Mel.",
-            last_words: "Timing malfunction! The Master, he's out there! He's out there... I've got to stop... him..."
+            last_words: "Timing malfunction! The Master, he's out there! He's out there... I've got to stop... him...",
+            wiki_link: "http://tardis.wikia.com/wiki/Seventh_Doctor"
         },
         {
             type: "Eight Doctor",
@@ -155,7 +162,8 @@
             costume: "Victorian dandy.",
             description: "A happy adventurer, having many points in common with the Tenth Doctor.",
             first_words: "Who am I?  Who am I?  WHO. AM. I!?",
-            last_words: "Good. Charley, C'rizz, Lucie, Tamsin, Molly, friends, companions I've known, I salute you. And Cass, I apologise.  Physician, heal thyself."
+            last_words: "Good. Charley, C'rizz, Lucie, Tamsin, Molly, friends, companions I've known, I salute you. And Cass, I apologise.  Physician, heal thyself.",
+            wiki_link: "http://tardis.wikia.com/wiki/Eigth_Doctor"
         },
         {
             type: "War Doctor",
@@ -173,7 +181,8 @@
             costume: "Edwardian grandfather",
             description: "The War Doctor appears old and bedraggled, wearing the Ninth Doctor's distressed leather overcoat over the Eighth Doctor's Victorian-style waistcoat.",
             first_words: "Doctor no more.",
-            last_words: "Oh yes. Of course. Suppose it makes sense. Wearing a bit thin. I hope the ears are a bit less conspicuous this time."
+            last_words: "Oh yes. Of course. Suppose it makes sense. Wearing a bit thin. I hope the ears are a bit less conspicuous this time.",
+            wiki_link: "http://tardis.wikia.com/wiki/War_Doctor"
         },
         {
             type: "Ninth Doctor",
@@ -191,7 +200,8 @@
             costume: "Leather jacket, ears.",
             description: "He considered himself to have been \"born in battle\" and was left to think he had brought forth the death of billions of innocent Time Lords. He thus commenced the new life devastated from the apparent genocide, full of anger.",
             first_words: "Run.",
-            last_words: "Rose, before I go, I just want to tell you, you were fantastic.  Absolutely fantastic. And do you know what? So was I."
+            last_words: "Rose, before I go, I just want to tell you, you were fantastic.  Absolutely fantastic. And do you know what? So was I.",
+            wiki_link: "http://tardis.wikia.com/wiki/Ninth_Doctor"
         },
         {
             type: "Tenth Doctor",
@@ -209,12 +219,15 @@
             costume: "Geek chic.",
             description: "He projected a convivial and even frivolous front. However, when he had to engage in conflict, the Tenth Doctor's energies would shift toward heroism to reveal a fiercely protective man who resolutely guarded what he held dear, and who could be viciously unforgiving to the forces that dared menace them.",
             first_words: "Hello. Okay. Ooo, new teeth. That's weird. So, where was I?  Oh, that's right. Barcelona.",
-            last_words: "I don't want to go."
+            last_words: "I don't want to go.",
+            wiki_link: "http://tardis.wikia.com/wiki/Tenth_Doctor"
         },
         {
             type: "Eleventh Doctor",
             image_url1: "http://i.imgur.com/yCfF1h1.jpg",
             image_url2: "http://i.imgur.com/tE1MoYh.gif",
+            to: 2010,
+            from: 2013,
             first_serial: "The End of Time",
             last_serial: "The Day of The Doctor",
             actor: "Matt Smith",
@@ -225,7 +238,8 @@
             costume: "Nerdy professor.",
             description: "A capricious and adventurous incarnation; \"the man who forgets\". He later became a man fond of remembering his precious life and became a secretive and guileful individual for the sake of himself and those he held close.",
             first_words: "Legs. I've still got legs. Good. Arms. Hands. Ooo, fingers. Lots of fingers. Ears, yes. Eyes, two. Nose, I've had worse. Chin, blimey.  Hair. I'm a girl! No. No. I'm not a girl. And still not ginger. And something else. Something important. I'm, I'm, I'm…  Ha! Crashing! Ha, ha! Whoo hoo hoo! Ah! Geronimo!",
-            last_words: "I will not forget one line of this. Not one day. I swear. I will always remember when the Doctor was me."
+            last_words: "I will not forget one line of this. Not one day. I swear. I will always remember when the Doctor was me.",
+            wiki_link: "http://tardis.wikia.com/wiki/Eleventh_Doctor"
         },
         {
             type: "Twelfth Doctor",
@@ -243,26 +257,27 @@
             costume: "",
             description: "A cynical man armed with a dry, acerbic wit, a brutal honesty and enough internalised anger to overpower Empath, the Twelfth Doctor The Twelfth Doctor is, according to Capaldi, more alien than he's been in a while. Whilst still defining himself as someone who saves people the Twelfth Doctor cares little about being seen as a hero or even being liked by the people who he is trying to save.[37] Unlike his previous two incarnations who cared about humans and tried to understand them, Capaldi has confirmed that, this incarnation doesn't quite understand human beings or really care very much about their approval.",
             first_words: "Kidneys! I've got new kidneys!",
-            last_words: "N/A"
+            last_words: "N/A",
+            wiki_link: "http://tardis.wikia.com/wiki/Twelfth_Doctor"
         }
     ];
 
     var quizQuestions = [
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "What year did the 6th Doctor first appear on TV?",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "1984"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "1976"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "1980"
                 },
                 {
-                    answer: "Up to 500kg"
+                    answer: "1971"
                 }
             ],
             selected: null,
@@ -270,19 +285,39 @@
         },
         {
             type: "text",
-            text: "What is the typical lifespan of a Green Sea Turtle?",
+            text: "Which Doctor was known for his trademark question marks?",
             possibilities: [
                 {
-                    answer: "150 years"
+                    answer: "4th"
                 },
                 {
-                    answer: "10 years"
+                    answer: "7th"
                 },
                 {
-                    answer: "80 years"
+                    answer: "6th"
                 },
                 {
-                    answer: "40 years"
+                    answer: "5th"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "What is the name of the first episode the War Doctor appeared in?",
+            possibilities: [
+                {
+                    answer: "The Day of the Doctor"
+                },
+                {
+                    answer: "The Name of the Doctor"
+                },
+                {
+                    answer: "The Parting of Ways"
+                },
+                {
+                    answer: "The War Doctor"
                 }
             ],
             selected: null,
@@ -290,19 +325,79 @@
         },
         {
             type: "image",
-            text: "Which of these is the Alligator Snapping Turtle?",
+            text: "Which Doctor appeared in the least amount of episodes?",
             possibilities: [
                 {
-                    answer: "https://c1.staticflickr.com/3/2182/2399413165_bcc8031cac_z.jpg?zz=1"
+                    answer: "http://i.imgur.com/qgpC5Ib.jpg"
                 },
                 {
-                    answer: "http://images.nationalgeographic.com/wpf/media-live/photos/000/006/cache/ridley-sea-turtle_688_600x450.jpg"
+                    answer: "http://i.imgur.com/CADo6kq.jpg"
                 },
                 {
-                    answer: "https://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/8/13/1313246505515/Leatherback-turtle-007.jpg"
+                    answer: "http://i.imgur.com/Ne6xA9Z.jpg"
                 },
                 {
-                    answer: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Alligator_snapping_turtle_-_Geierschildkr%C3%B6te_-_Alligatorschildkr%C3%B6te_-_Macrochelys_temminckii_01.jpg"
+                    answer: "http://i.imgur.com/fzO6wLv.jpg"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "Which actor portrayed the 2nd Doctor?'",
+            possibilities: [
+                {
+                    answer: "William Hartnell"
+                },
+                {
+                    answer: "Jon Pertwee"
+                },
+                {
+                    answer: "Patrick Troughton"
+                },
+                {
+                    answer: "Tom Baker"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "Which Doctor is known most for his colorful scarf?",
+            possibilities: [
+                {
+                    answer: "4th Doctor"
+                },
+                {
+                    answer: "5th Doctor"
+                },
+                {
+                    answer: "6th Doctor"
+                },
+                {
+                    answer: "7th Doctor"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "Which Doctor's last words were, \"I don't want to go.\"?",
+            possibilities: [
+                {
+                    answer: "War Doctor"
+                },
+                {
+                    answer: "9th Doctor"
+                },
+                {
+                    answer: "10th Doctor"
+                },
+                {
+                    answer: "11th Doctor"
                 }
             ],
             selected: null,
@@ -310,19 +405,19 @@
         },
         {
             type: "image",
-            text: "Which of these is the Green Turtle?",
+            text: "Which of these is the War Doctor?",
             possibilities: [
                 {
-                    answer: "https://ae01.alicdn.com/kf/HTB1JtaeNXXXXXaSXVXXq6xXFXXXY/-font-b-Sea-b-font-font-b-Turtle-b-font-Seabed-Looking-Marine-Animal-Poster.jpg"
+                    answer: "http://i.imgur.com/8GiLok9.jpg"
                 },
                 {
-                    answer: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kemp's_Ridley_sea_turtle_nesting.JPG"
+                    answer: "http://i.imgur.com/kRyRYoD.jpg"
                 },
                 {
-                    answer: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Alligator_snapping_turtle_-_Geierschildkr%C3%B6te_-_Alligatorschildkr%C3%B6te_-_Macrochelys_temminckii_01.jpg"
+                    answer: "http://i.imgur.com/6pIVbT0.jpg"
                 },
                 {
-                    answer: "http://assets.worldwildlife.org/photos/163/images/carousel_small/SCR_290360hawskbill-why-matter-LG.jpg?1345565532"
+                    answer: "http://i.imgur.com/ccRnLWQ.jpg"
                 }
             ],
             selected: null,
@@ -330,59 +425,19 @@
         },
         {
             type: "text",
-            text: "Where does the Kemp's Ridley Sea Turtle live?'",
+            text: "Which Doctor does Matt Smith portray?",
             possibilities: [
                 {
-                    answer: "Tropical waters all around the world"
+                    answer: "9th Doctor"
                 },
                 {
-                    answer: "Eastern Australia"
+                    answer: "11th Doctor"
                 },
                 {
-                    answer: "Coastal North Atlantic"
+                    answer: "12th Doctor"
                 },
                 {
-                    answer: "South pacific islands"
-                }
-            ],
-            selected: null,
-            correct: null
-        },
-        {
-            type: "text",
-            text: "What is the most common turtle in US waters?",
-            possibilities: [
-                {
-                    answer: "Loggerhead turtle"
-                },
-                {
-                    answer: "Leatherback turtle"
-                },
-                {
-                    answer: "Hawksbill Turtle"
-                },
-                {
-                    answer: "Alligator Snapping Turtle"
-                }
-            ],
-            selected: null,
-            correct: null
-        },
-        {
-            type: "text",
-            text: "What is the largest sea turtle on earth?",
-            possibilities: [
-                {
-                    answer: "Eastern Snake Necked Turtle"
-                },
-                {
-                    answer: "Olive Ridley Sea Turtle"
-                },
-                {
-                    answer: "Kemp's Ridley Sea Turtle'"
-                },
-                {
-                    answer: "Leatherback"
+                    answer: "10th Doctor"
                 }
             ],
             selected: null,
@@ -390,19 +445,19 @@
         },
         {
             type: "image",
-            text: "Which of these is the Olive Ridley Turtle?",
+            text: "Which jacket did the 11th Doctor wear?",
             possibilities: [
                 {
-                    answer: "http://i.telegraph.co.uk/multimedia/archive/02651/loggerheadTurtle_2651448b.jpg"
+                    answer: "http://i.imgur.com/BsINSqo.jpg"
                 },
                 {
-                    answer: "http://assets.worldwildlife.org/photos/163/images/carousel_small/SCR_290360hawskbill-why-matter-LG.jpg?1345565532"
+                    answer: "http://i.imgur.com/vZnzmrY.jpg"
                 },
                 {
-                    answer: "http://images.nationalgeographic.com/wpf/media-live/photos/000/006/cache/ridley-sea-turtle_688_600x450.jpg"
+                    answer: "http://i.imgur.com/2e1FdZI.png"
                 },
                 {
-                    answer: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kemp's_Ridley_sea_turtle_nesting.JPG"
+                    answer: "http://i.imgur.com/aym5uRt.png"
                 }
             ],
             selected: null,
@@ -410,19 +465,39 @@
         },
         {
             type: "text",
-            text: "How Heavy can a leatherback turtle be?",
+            text: "How many years did David Tenant portray the Doctor?",
             possibilities: [
                 {
-                    answer: "900kg"
+                    answer: "4 years"
                 },
                 {
-                    answer: "40kg"
+                    answer: "5 years"
                 },
                 {
-                    answer: "110kg"
+                    answer: "6 years"
                 },
                 {
-                    answer: "300kg"
+                    answer: "7 years"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "image",
+            text: "What kind of hat did the 7th Doctor wear?",
+            possibilities: [
+                {
+                    answer: "http://i.imgur.com/737D1Vy.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/vnNSrQb.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/n1XGVos.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/BnRdW8S.jpg"
                 }
             ],
             selected: null,
@@ -430,19 +505,19 @@
         },
         {
             type: "text",
-            text: "Which of these turtles are herbivores?",
+            text: "What was the name of the first episode the First Doctor appeared in?",
             possibilities: [
                 {
-                    answer: "Loggerhead Turtle"
+                    answer: "The Tenth Planet"
                 },
                 {
-                    answer: "Hawksbill Turtle"
+                    answer: "An Unearthly Child"
                 },
                 {
-                    answer: "Leatherback Turtle"
+                    answer: "Spearhead from Space"
                 },
                 {
-                    answer: "Green Turtle"
+                    answer: "Planet of the Spiders"
                 }
             ],
             selected: null,
@@ -450,19 +525,39 @@
         },
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "Which Doctor was portrayed by Sylvester McCoy?",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "4th Doctor"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "5th Doctor"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "6th Doctor"
                 },
                 {
-                    answer: "Up to 500kg"
+                    answer: "7th Doctor"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "image",
+            text: "Which Doctor's adventures were the first to be broadcasted in color?",
+            possibilities: [
+                {
+                    answer: "http://i.imgur.com/nT8dqx6.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/Uy8OyDE.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/OeUP2L2.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/72sPQvU.jpg"
                 }
             ],
             selected: null,
@@ -470,19 +565,39 @@
         },
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "How many episodes was the 9th Doctor in?",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "13"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "20"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "10"
                 },
                 {
-                    answer: "Up to 500kg"
+                    answer: "15"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "image",
+            text: "Which Doctor appeared in the most amount of episodes?",
+            possibilities: [
+                {
+                    answer: "http://i.imgur.com/yCfF1h1.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/mIVpQji.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/zBG6gPy.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/UjDBb1p.jpg"
                 }
             ],
             selected: null,
@@ -490,19 +605,19 @@
         },
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "Which Doctor is known for having a cat pin?",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "First Doctor"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "Sixth Doctor"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "Fourth Doctor"
                 },
                 {
-                    answer: "Up to 500kg"
+                    answer: "Fifth Doctor"
                 }
             ],
             selected: null,
@@ -510,19 +625,19 @@
         },
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "Where does the Ninth Doctor take his companion on their first Adventure?",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "Slaving Ship"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "End of the Universe"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "To see her birth"
                 },
                 {
-                    answer: "Up to 500kg"
+                    answer: "End of the World"
                 }
             ],
             selected: null,
@@ -530,19 +645,39 @@
         },
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "What is the 11th Doctor's favorite food??",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "Fish Fingers and Custard"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "Banana Splits"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "Jelly Babies"
                 },
                 {
-                    answer: "Up to 500kg"
+                    answer: "Shepard's Pie"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "image",
+            text: "Who was the 9th Doctor's companion?",
+            possibilities: [
+                {
+                    answer: "http://i.imgur.com/CeENk5x.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/MLSoFao.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/3vI4dfz.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/2Pjkcdp.jpg"
                 }
             ],
             selected: null,
@@ -550,19 +685,19 @@
         },
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "Which Doctor was the only one to not own a sonic screwdriver?",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "Second Doctor"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "Third Doctor"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "Fourth Doctor"
                 },
                 {
-                    answer: "Up to 500kg"
+                    answer: "First Doctor"
                 }
             ],
             selected: null,
@@ -570,19 +705,19 @@
         },
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "Which Doctor's first words were, 'Who am I?  Who am I?  WHO. AM. I!?'",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "8th Doctor"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "9th Doctor"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "10th Doctor"
                 },
                 {
-                    answer: "Up to 500kg"
+                    answer: "11th Doctor"
                 }
             ],
             selected: null,
@@ -590,19 +725,39 @@
         },
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "Which Doctor carried a stalk of celery in his lapel?",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "4th Doctor"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "5th Doctor"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "6th Doctor"
                 },
                 {
-                    answer: "Up to 500kg"
+                    answer: "7th Doctor"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "image",
+            text: "Which sonic screwdriver belonged to the 3rd Doctor?",
+            possibilities: [
+                {
+                    answer: "http://i.imgur.com/NHmgA4T.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/NqKEuby.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/Zq9QDeH.jpg"
+                },
+                {
+                    answer: "http://i.imgur.com/knY9fiD.jpg"
                 }
             ],
             selected: null,
@@ -610,159 +765,19 @@
         },
         {
             type: "text",
-            text: "How much can a loggerhead weigh?",
+            text: "Which Doctor is 12?",
             possibilities: [
                 {
-                    answer: "Up to 20kg"
+                    answer: "12th Doctor?"
                 },
                 {
-                    answer: "Up to 115kg"
+                    answer: "12th Doctor?"
                 },
                 {
-                    answer: "Up to 220kg"
+                    answer: "11th Doctor"
                 },
                 {
-                    answer: "Up to 500kg"
-                }
-            ],
-            selected: null,
-            correct: null
-        },
-        {
-            type: "text",
-            text: "How much can a loggerhead weigh?",
-            possibilities: [
-                {
-                    answer: "Up to 20kg"
-                },
-                {
-                    answer: "Up to 115kg"
-                },
-                {
-                    answer: "Up to 220kg"
-                },
-                {
-                    answer: "Up to 500kg"
-                }
-            ],
-            selected: null,
-            correct: null
-        },
-        {
-            type: "text",
-            text: "How much can a loggerhead weigh?",
-            possibilities: [
-                {
-                    answer: "Up to 20kg"
-                },
-                {
-                    answer: "Up to 115kg"
-                },
-                {
-                    answer: "Up to 220kg"
-                },
-                {
-                    answer: "Up to 500kg"
-                }
-            ],
-            selected: null,
-            correct: null
-        },
-        {
-            type: "text",
-            text: "How much can a loggerhead weigh?",
-            possibilities: [
-                {
-                    answer: "Up to 20kg"
-                },
-                {
-                    answer: "Up to 115kg"
-                },
-                {
-                    answer: "Up to 220kg"
-                },
-                {
-                    answer: "Up to 500kg"
-                }
-            ],
-            selected: null,
-            correct: null
-        },
-        {
-            type: "text",
-            text: "How much can a loggerhead weigh?",
-            possibilities: [
-                {
-                    answer: "Up to 20kg"
-                },
-                {
-                    answer: "Up to 115kg"
-                },
-                {
-                    answer: "Up to 220kg"
-                },
-                {
-                    answer: "Up to 500kg"
-                }
-            ],
-            selected: null,
-            correct: null
-        },
-        {
-            type: "text",
-            text: "How much can a loggerhead weigh?",
-            possibilities: [
-                {
-                    answer: "Up to 20kg"
-                },
-                {
-                    answer: "Up to 115kg"
-                },
-                {
-                    answer: "Up to 220kg"
-                },
-                {
-                    answer: "Up to 500kg"
-                }
-            ],
-            selected: null,
-            correct: null
-        },
-        {
-            type: "text",
-            text: "How much can a loggerhead weigh?",
-            possibilities: [
-                {
-                    answer: "Up to 20kg"
-                },
-                {
-                    answer: "Up to 115kg"
-                },
-                {
-                    answer: "Up to 220kg"
-                },
-                {
-                    answer: "Up to 500kg"
-                }
-            ],
-            selected: null,
-            correct: null
-        },
-        {
-            type: "text",
-            text: "How much can a loggerhead weigh?",
-            possibilities: [
-                {
-                    answer: "Up to 20kg"
-                },
-                {
-                    answer: "Up to 115kg"
-                },
-                {
-                    answer: "Up to 220kg"
-                },
-                {
-                    answer: "Up to 500kg"
+                    answer: "12th Doctor?"
                 }
             ],
             selected: null,
@@ -770,5 +785,5 @@
         }
     ];
 
-    var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3];
+    var correctAnswers = [0, 1, 1, 2, 1, 0, 2, 1, 1, 0, 1, 1, 1, 3, 1, 0, 1, 1, 3, 0, 3, 3, 0, 1, 2, 1];
 })();
