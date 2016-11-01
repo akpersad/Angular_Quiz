@@ -108,7 +108,7 @@
 			<div class="col-xs-8">
 				<h2>Progress:</h2>
 				<div class="btn-toolbar">
-					<button class="btn" ng-repeat="question in quiz.dataService.quizQuestions"
+					<button class="btn button-wrapper" ng-repeat="question in quiz.dataService.quizQuestions"
 							ng-class="{'btn-primary': question.selected !== null, 'btn-warning': question.selected === null}"
 							ng-click="quiz.setActiveQuestion($index)">
 						<span class="glyphicon"
@@ -267,14 +267,6 @@
 <script src="js/controllers/results.js"></script>
 <script src="js/factories/quizMetrics.js"></script>
 <script src="js/factories/dataservice.js"></script>
-
-<script type="text/javascript">
-	$(function() {
-		$('#flash').delay(500).fadeIn('normal', function() {
-			$(this).delay(5000).fadeOut();
-		});
-	});
-</script>
 
 </body>
 </html>
