@@ -33,16 +33,16 @@
 
 .image-answer{
     cursor: pointer;
-    height: 350px;
-    width: 100%;
+    max-height: 500px;
+    width: 350px;
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .image-answer img{
-    width: 100%;
-    height: auto;
+    width: 350px;
+    height: 500px;
 }
 
 .image-selected{
@@ -57,12 +57,12 @@
     border: 3px solid #b74848;
 }
 
- .btn{
-     margin-bottom: 5px;
- }
- 
- @media (min-width: 600px){
-     .btn-toolbar{
-         width: 600px;
-     }
- }
+.btn{
+    margin-bottom: 5px;
+}
+
+@media (min-width: 600px){
+    .btn-toolbar{
+        width: 600px;
+    }
+}
